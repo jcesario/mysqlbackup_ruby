@@ -36,6 +36,10 @@ package { "man":
   ensure => installed,
 } 
 
+package { "curl":
+  ensure => installed,
+}
+
 service { "mysql":
   enable => true,
   ensure => running,

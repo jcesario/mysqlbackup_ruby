@@ -84,6 +84,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision "shell", path: "vagrant_files/scripts/make_data.sh"
+  config.vm.provision "shell", path: "vagrant_files/scripts/install_ruby.sh"
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding
