@@ -1,0 +1,6 @@
+Vagrant LAM setup going. 
+Git github checkout
+
+insert some data into mysql
+install xtrabackup
+
