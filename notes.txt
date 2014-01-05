@@ -4,3 +4,8 @@ Git github checkout
 insert some data into mysql
 install xtrabackup
 
+backup script should: 
+ensure paths exist
+take the backup
+tarball and gzip
+rotate based on config file
